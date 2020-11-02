@@ -1,0 +1,76 @@
+#grid {
+  margin: auto;
+  padding-top: 4%;
+  align-content: center;
+}
+
+.grid-row {
+  padding: 0;
+  height: 26px;
+}
+
+.button-bar {
+  background: turquoise;
+  height: 6em;
+  align-content: center;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1em 2em 0em;
+  vertical-align: middle;
+  border: 1px black solid;
+  background: turquoise;
+  transition-property: background;
+  transition-duration: 0.25s;
+}
+
+.btn:hover {
+  background: rgb(238, 255, 0);
+}
+
+.btn:active {
+  border: 2px rgb(0, 0, 0) solid;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+#clear-board {
+  width: 7.5em;
+  height: 2.5em;
+}
+
+#visualizer {
+  width: 10em;
+  height: 3em;
+}
+
+#weight-container {
+  display: inline-block;
+  width: 8.5em;
+  height: 5em;
+  margin: 0.5em 2em 0em;
+}
+
+#weight-btn {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1em 2em 0em;
+  vertical-align: middle;
+  border: 1px black solid;
+  background: turquoise;
+  width: 8em;
+  height: 3em;
+  margin: 1em 0 0 0;
+}
+
+#weight-btn:focus {
+  outline: none;
+}
+
+#weight-slider {
+  float: right;
+}
